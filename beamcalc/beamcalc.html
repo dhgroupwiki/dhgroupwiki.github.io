@@ -1,9 +1,28 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <title>Basic Web Page</title>
-  </head>
-  <body>
-    Hello World!
-  </body>
+<head></head>
+<body>
+
+<form name="TESTING">
+<table border="1" width="600" height="200" cellpadding="10" cellspacing="3">
+<tr><th colspan="2"><h1>TESTING</h1></th></tr>
+<tr>  <th><h3>INPUT</h3></th>
+<th><h3>OUTPUT</h3></th>    </tr>
+<tr></tr>
+<td><input type="number" name="INPUT1"/></td>
+<td><input type="text" name="OUTPUT1"></td>
+<table>
+
+</form>
+</body>
 </html>
+  
+var input1 = document.getElementsByName("INPUT1")[0];
+var output1 = document.getElementsByName("OUTPUT1")[0];
+
+function changeInput(e){ 
+    var calc = (((input1.value/20)*0.585)*0.30);
+    output1.value = calc;
+}
+
+input1.onchange = changeInput;
+  
