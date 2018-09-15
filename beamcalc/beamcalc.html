@@ -4,7 +4,7 @@
     <title>BeamCalc</title>
 </head>
 <body>
-    <form name="3-Point Beam Deflection">
+    <form name="BEAM3PT">
         <table border="1" width="600" height="200" cellpadding="10" cellspacing="3">
             <tr>
                 <th colspan="2">
@@ -16,7 +16,7 @@
                     Length [mm]
                 </th>
                 <td>
-                    <input type="number" name="L" id="input" onchange="calculate();" required/>
+                    <input type="number" name="L" id="LENGTH" onchange="calculate();" required/>
                 </td>   
             </tr>
              <tr>  
@@ -24,7 +24,7 @@
                     Load [N]
                 </th>
                 <td>
-                    <input type="number" name="L" id="input" onchange="calculate();" required/>
+                    <input type="number" name="W" id="LOAD" onchange="calculate();" required/>
                </td>   
             </tr>
              <tr>  
@@ -56,7 +56,7 @@
                     Deflection [mm]
                 </th>
                 <td>
-                    <input type="number" name="y" id="output">
+                    <input type="number" name="y" id="DEFLECTION">
                 </td>    
             </tr>
             <tr>  
@@ -80,9 +80,10 @@
 
 <script type="text/javascript">
     function calculate() {
-        var USERINPUT1 = document.TESTING.INPUT1.value,
-            RESULT = (USERINPUT1/20) * .585 * .30;
-        document.TESTING.OUTPUT1.value = RESULT;
+        var L = document.BEAM3PT.LENGTH.value,
+        var W = document.BEAM3PT.LOAD.value,
+        var SUM = L + W;
+        document.BEAM3PT.DEFLECTION.value = SUM;
     }
 </script>
 </body>
