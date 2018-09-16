@@ -30,7 +30,7 @@
         <table border="1" width="600" height="200" cellpadding="5" cellspacing="3">
             <tr>
                 <th colspan="3">
-                    <h1>3-Point Rectangular Beam [7]</h1>
+                    <h1>3-Point Rectangular Beam [8]</h1>
                 </th>
             </tr>
             <tr>  
@@ -100,6 +100,9 @@
                 </td> 
                 <td></td>
             </tr>
+            <tr>
+                <td colspan="3" id="MESSAGE" />
+            </tr> 
             <!--<tr> 
                 <td>
                     <input type="number" name="INPUT1" id="input" onchange="calculate();"/>
@@ -112,6 +115,8 @@
     </form>
 
 <script type="text/javascript">
+    function InputChanged() {
+        
     function ComputeDeflection() {
         var L = Number(document.BEAM3PT.LENGTH.value);
         var W = Number(document.BEAM3PT.LOAD.value);
