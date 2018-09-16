@@ -64,7 +64,7 @@
                     Moment of Intertia [mm<sup>4</sup>]
                 </td>
                 <td>
-                    <input type="number" name="I" id="output">
+                    <input type="number" name="I" id="MOMENT">
                 </td>     
             </tr>
             <!--<tr> 
@@ -82,8 +82,12 @@
     function calculate() {
         var L = Number(document.BEAM3PT.LENGTH.value);
         var W = Number(document.BEAM3PT.LOAD.value);
-        var SUM = L + W;
-        document.BEAM3PT.DEFLECTION.value = SUM;
+        var b = Number(document.BEAM3PT.XWIDTH.value);
+        var h = Number(document.BEAM3PT.XHEIGHT.value);
+        var E = Number(document.BEAM3PT.MODULUS.value);
+        var y = Number(document.BEAM3PT.DEFLECTION.value);
+        var I = (b*(h*h*h)) / 12.0;
+        document.BEAM3PT.MOMENT.value = I;
     }
 </script>
 </body>
