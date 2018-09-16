@@ -38,7 +38,7 @@
                     Length
                 </td>
                 <td>
-                    <input type="number" style="text-align: right" name="L" id="LENGTH" onchange="Compute();" required/> mm
+                    <input type="number" style="text-align: right" name="L" id="LENGTH" required/> mm
                 </td>   
             </tr>
              <tr>  
@@ -46,7 +46,7 @@
                     Load
                 </td>
                 <td>
-                    <input type="number" style="text-align: right" name="W" id="LOAD" onchange="Compute();" required/> N
+                    <input type="number" style="text-align: right" name="W" id="LOAD" required/> N
                </td>   
             </tr>
              <tr>  
@@ -54,7 +54,7 @@
                     Cross Section: Width
                 </td>
                 <td>
-                    <input type="number" style="text-align: right" name="b" id="XWIDTH" onchange="Compute();" required/> mm
+                    <input type="number" style="text-align: right" name="b" id="XWIDTH" required/> mm
                 </td>     
             </tr>
              <tr>  
@@ -62,7 +62,7 @@
                     Cross Section: Height
                 </td>
                <td>
-                    <input type="number" style="text-align: right" name="h" id="XHEIGHT" onchange="Compute();" required/> mm
+                    <input type="number" style="text-align: right" name="h" id="XHEIGHT" required/> mm
                </td>    
             </tr>
             <tr>  
@@ -70,7 +70,7 @@
                     Elastic Modulus
                 </td>
                 <td>
-                    <input type="number" style="text-align: right" name="E" id="MODULUS" onchange="Compute();"/> MPa
+                    <input type="number" style="text-align: right" name="E" id="MODULUS" onchange="ComputeDeflection();"/> MPa
                 </td>     
             </tr>
              <tr>  
@@ -78,7 +78,7 @@
                     Maximum Deflection
                 </td>
                 <td>
-                    <input type="number" style="text-align: right" name="y" id="DEFLECTION" onchange="Compute();"> mm
+                    <input type="number" style="text-align: right" name="y" id="DEFLECTION" onchange="ComputeModulus();"> mm
                 </td>    
             </tr>
             <tr>  
@@ -101,20 +101,31 @@
     </form>
 
 <script type="text/javascript">
-    function Compute() {
+    function ComputeDeflection() {
         var L = Number(document.BEAM3PT.LENGTH.value);
         var W = Number(document.BEAM3PT.LOAD.value);
         var b = Number(document.BEAM3PT.XWIDTH.value);
         var h = Number(document.BEAM3PT.XHEIGHT.value);
         var E = Number(document.BEAM3PT.MODULUS.value);
+        var y;
+        var I;
+        I = (b*(h*h*h))/12.0;
+        y = (W*(L*L*L))/(48.0*E*I);
+        document.BEAM3PT.MOMENT.value = I;
+        document.BEAM3PT.DEFLECTION.value = y;
+    }
+    function ComputeModulus() {
+        var L = Number(document.BEAM3PT.LENGTH.value);
+        var W = Number(document.BEAM3PT.LOAD.value);
+        var b = Number(document.BEAM3PT.XWIDTH.value);
+        var h = Number(document.BEAM3PT.XHEIGHT.value);
         var y = Number(document.BEAM3PT.DEFLECTION.value);
         var I;
-        if (y == 5) {
-            I = (b*(h*h*h))/12.0;
-            y = (W*(L*L*L))/(48.0*E*I);
-            document.BEAM3PT.MOMENT.value = I;
-            document.BEAM3PT.DEFLECTION.value = y;
-        }
+        var E;
+        I = (b*(h*h*h))/12.0;
+        E = (W*(L*L*L))/(48.0*y*I);
+        document.BEAM3PT.MOMENT.value = I;
+        document.BEAM3PT.MODULUS.value = E;
     }
 </script>
 </body>
