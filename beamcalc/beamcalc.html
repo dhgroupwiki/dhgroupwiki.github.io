@@ -30,7 +30,7 @@
         <table border="1" width="600" height="200" cellpadding="5" cellspacing="3">
             <tr>
                 <th colspan="3">
-                    <h1>3-Point Rectangular Beam [20]</h1>
+                    <h1>3-Point Rectangular Beam [21]</h1>
                 </th>
             </tr>
             <tr>  
@@ -118,10 +118,10 @@
 
 <script type="text/javascript">
     function InputChanged() {
-        document.getElementById("MESSAGE").innerHTML = "<small style="color:red">Input changed. Recompute necessary.</small>";
+        document.getElementById("MESSAGE").innerHTML = '<small style="color:red">Input changed. Recompute necessary.</small>';
     }    
     function ComputationUpToDate() {
-        document.getElementById("MESSAGE").innerHTML = "<small style="color:blue">Computation up to date.</small>";
+        document.getElementById("MESSAGE").innerHTML = '<small style="color:blue">Computation up to date.</small>';
     }
     function ComputeDeflection() {
         var L = Number(document.BEAM3PT.LENGTH.value);
