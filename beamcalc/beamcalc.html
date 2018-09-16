@@ -38,7 +38,7 @@
                     Length
                 </td>
                 <td>
-                    <input type="number" style="text-align: right" name="L" id="LENGTH" onchange="calculate();" required/> mm
+                    <input type="number" style="text-align: right" name="L" id="LENGTH"  required/> mm
                 </td>   
             </tr>
              <tr>  
@@ -46,7 +46,7 @@
                     Load
                 </td>
                 <td>
-                    <input type="number" style="text-align: right" name="W" id="LOAD" onchange="calculate();" required/> N
+                    <input type="number" style="text-align: right" name="W" id="LOAD" required/> N
                </td>   
             </tr>
              <tr>  
@@ -54,7 +54,7 @@
                     Cross Section: Width
                 </td>
                 <td>
-                    <input type="number" style="text-align: right" name="b" id="XWIDTH" onchange="calculate();" required/> mm
+                    <input type="number" style="text-align: right" name="b" id="XWIDTH" required/> mm
                 </td>     
             </tr>
              <tr>  
@@ -62,7 +62,7 @@
                     Cross Section: Height
                 </td>
                <td>
-                    <input type="number" style="text-align: right" name="h" id="XHEIGHT" onchange="calculate();"required/> mm
+                    <input type="number" style="text-align: right" name="h" id="XHEIGHT" required/> mm
                </td>    
             </tr>
             <tr>  
@@ -70,7 +70,7 @@
                     Elastic Modulus
                 </td>
                 <td>
-                    <input type="number" style="text-align: right" name="E" id="MODULUS" onchange="calculate();"/> MPa
+                    <input type="number" style="text-align: right" name="E" id="MODULUS" onchange="ComputeDeflection();"/> MPa
                 </td>     
             </tr>
              <tr>  
@@ -101,7 +101,7 @@
     </form>
 
 <script type="text/javascript">
-    function calculate() {
+    function ComputeDeflection() {
         var L = Number(document.BEAM3PT.LENGTH.value);
         var W = Number(document.BEAM3PT.LOAD.value);
         var b = Number(document.BEAM3PT.XWIDTH.value);
