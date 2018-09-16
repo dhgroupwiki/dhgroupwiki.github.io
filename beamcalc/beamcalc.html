@@ -30,7 +30,7 @@
         <table border="1" width="600" height="200" cellpadding="5" cellspacing="3">
             <tr>
                 <th colspan="3">
-                    <h1>3-Point Rectangular Beam [5]</h1>
+                    <h1>3-Point Rectangular Beam [6]</h1>
                 </th>
             </tr>
             <tr>  
@@ -122,8 +122,8 @@
         var I;
         I = (b*(h*h*h))/12.0;
         y = (W*(L*L*L))/(48.0*E*I);
-        document.BEAM3PT.MOMENT.value = I;
-        document.BEAM3PT.DEFLECTION.value = y;
+        document.BEAM3PT.MOMENT.value = I.toFixed(6);
+        document.BEAM3PT.DEFLECTION.value = y.toFixed(6);
     }
     function ComputeModulus() {
         var L = Number(document.BEAM3PT.LENGTH.value);
@@ -135,8 +135,8 @@
         var E;
         I = (b*(h*h*h))/12.0;
         E = (W*(L*L*L))/(48.0*y*I);
-        document.BEAM3PT.MOMENT.value = I;
-        document.BEAM3PT.MODULUS.value = E;
+        document.BEAM3PT.MOMENT.value = I.toFixed(6);
+        document.BEAM3PT.MODULUS.value = E.toFixed(6);
     }
 </script>
 </body>
