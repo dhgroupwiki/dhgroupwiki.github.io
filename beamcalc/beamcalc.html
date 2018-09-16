@@ -30,7 +30,7 @@
         <table border="1" width="600" height="200" cellpadding="5" cellspacing="3">
             <tr>
                 <th colspan="3">
-                    <h1>3-Point Rectangular Beam [8]</h1>
+                    <h1>3-Point Rectangular Beam [9]</h1>
                 </th>
             </tr>
             <tr>  
@@ -38,7 +38,7 @@
                     Length
                 </td>
                 <td>
-                    <input type="number" style="text-align: right" name="L" id="LENGTH" required/> mm
+                    <input type="number" style="text-align: right" name="L" id="LENGTH" onchange="InputChanged();" required/> mm
                 </td>
                 <td></td>
             </tr>
@@ -101,7 +101,7 @@
                 <td></td>
             </tr>
             <tr>
-                <td colspan="3" id="MESSAGE" />
+                <td colspan="3" id="MESSAGE"></td>
             </tr> 
             <!--<tr> 
                 <td>
@@ -116,7 +116,8 @@
 
 <script type="text/javascript">
     function InputChanged() {
-        
+        document.BEAM3PT.MESSAGE.value = "Input changed";
+    }    
     function ComputeDeflection() {
         var L = Number(document.BEAM3PT.LENGTH.value);
         var W = Number(document.BEAM3PT.LOAD.value);
