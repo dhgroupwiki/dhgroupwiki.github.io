@@ -80,8 +80,8 @@
 
 <script type="text/javascript">
     function calculate() {
-        var L = document.BEAM3PT.LENGTH.value;
-        var W = document.BEAM3PT.LOAD.value;
+        var L = Number(document.BEAM3PT.LENGTH.value);
+        var W = Number(document.BEAM3PT.LOAD.value);
         var SUM = L + W;
         document.BEAM3PT.DEFLECTION.value = SUM;
     }
