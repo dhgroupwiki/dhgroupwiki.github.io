@@ -30,7 +30,7 @@
         <table border="1" width="600" height="200" cellpadding="5" cellspacing="3">
             <tr>
                 <th colspan="3">
-                    <h1>3-Point Rectangular Beam [15]</h1>
+                    <h1>3-Point Rectangular Beam [17]</h1>
                 </th>
             </tr>
             <tr>  
@@ -102,7 +102,7 @@
             </tr>
             <tr>
                 <td colspan="3" id="MESSAGE">
-                    <small>Up to date</small>
+                    <small> </small>
                 </td>
             </tr> 
             <!--<tr> 
@@ -118,8 +118,11 @@
 
 <script type="text/javascript">
     function InputChanged() {
-        document.getElementById("MESSAGE").innerHTML = "Input changed. Recompute needed.";
+        document.getElementById("MESSAGE").innerHTML = "Input changed. Recompute necessary.";
     }    
+    function ComputationUpToDate() {
+        document.getElementById("MESSAGE").innerHTML = "Computation up to date.";
+    }
     function ComputeDeflection() {
         var L = Number(document.BEAM3PT.LENGTH.value);
         var W = Number(document.BEAM3PT.LOAD.value);
@@ -132,6 +135,7 @@
         y = (W*(L*L*L))/(48.0*E*I);
         document.BEAM3PT.MOMENT.value = I.toFixed(6);
         document.BEAM3PT.DEFLECTION.value = y.toFixed(6);
+        ComputationUpToDate();
     }
     function ComputeModulus() {
         var L = Number(document.BEAM3PT.LENGTH.value);
@@ -145,6 +149,7 @@
         E = (W*(L*L*L))/(48.0*y*I);
         document.BEAM3PT.MOMENT.value = I.toFixed(6);
         document.BEAM3PT.MODULUS.value = E.toFixed(6);
+        ComputationUpToDate();
     }
 </script>
 </body>
