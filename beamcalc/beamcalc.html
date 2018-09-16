@@ -20,49 +20,49 @@
                 </td>   
             </tr>
              <tr>  
-                <th>
+                <td>
                     Load [N]
-                </th>
+                </td>
                 <td>
                     <input type="number" name="W" id="LOAD" onchange="calculate();" required/>
                </td>   
             </tr>
              <tr>  
-                <th>
-                    Cross Section: Width [mm]
-                </th>
                 <td>
-                    <input type="number" name="L" id="input" onchange="calculate();" required/>
+                    Cross Section: Width [mm]
+                </td>
+                <td>
+                    <input type="number" name="b" id="XWIDTH" onchange="calculate();" required/>
                 </td>     
             </tr>
              <tr>  
-                <th>
+                <td>
                     Cross Section: Height [mm]
-                </th>
+                </td>
                <td>
-                    <input type="number" name="L" id="input" onchange="calculate();"required/>
+                    <input type="number" name="h" id="XHEIGHT" onchange="calculate();"required/>
                </td>    
             </tr>
             <tr>  
-                <th>
-                    Elastic Modulus [MPa]
-                </th>
                 <td>
-                    <input type="number" name="L" id="input" onchange="calculate();"/>
+                    Elastic Modulus [MPa]
+                </td>
+                <td>
+                    <input type="number" name="E" id="MODULUS" onchange="calculate();"/>
                 </td>     
             </tr>
              <tr>  
-                <th>
+                <td>
                     Deflection [mm]
-                </th>
+                </td>
                 <td>
                     <input type="number" name="y" id="DEFLECTION">
                 </td>    
             </tr>
             <tr>  
-                <th>
+                <td>
                     Moment of Intertia [mm<sup>4</sup>]
-                </th>
+                </td>
                 <td>
                     <input type="number" name="I" id="output">
                 </td>     
@@ -80,8 +80,8 @@
 
 <script type="text/javascript">
     function calculate() {
-        var L = document.BEAM3PT.LENGTH.value,
-        var W = document.BEAM3PT.LOAD.value,
+        var L = document.BEAM3PT.LENGTH.value;
+        var W = document.BEAM3PT.LOAD.value;
         var SUM = L + W;
         document.BEAM3PT.DEFLECTION.value = SUM;
     }
