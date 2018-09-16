@@ -109,7 +109,9 @@
         var E = Number(document.BEAM3PT.MODULUS.value);
         var y = Number(document.BEAM3PT.DEFLECTION.value);
         var I = (b*(h*h*h)) / 12.0;
+        y = (W*(L*L*L)) / (48.0*E*I)
         document.BEAM3PT.MOMENT.value = I;
+        document.BEAM3PT.DEFLECTION.value = y;
     }
 </script>
 </body>
