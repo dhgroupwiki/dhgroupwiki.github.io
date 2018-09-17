@@ -36,7 +36,7 @@
             <col width="35%">
             <tr>
                 <th colspan="4">
-                    <h1>3-Point Rectangular Beam [7]</h1>
+                    <h1>3-Point Rectangular Beam [8]</h1>
                 </th>
             </tr>
             <tr>
@@ -100,7 +100,7 @@
                     E 
                 </td>
                 <td>
-                    <input type="number" style="text-align: right" name="E" id="MODULUS" oninput="InputChanged();"/> MPa                   
+                    <input type="text" style="text-align: right" name="E" id="MODULUS" oninput="InputChanged();"/> MPa                   
                 </td>     
                 <td align="center">
                     <button type="button" style="width: 100%" onclick="ComputeModulus();">Compute E</button>
@@ -114,7 +114,7 @@
                     y
                 </td> 
                 <td>
-                    <input type="number" style="text-align: right" name="y" id="DEFLECTION" oninput="InputChanged();"/> mm               
+                    <input type="text" style="text-align: right" name="y" id="DEFLECTION" oninput="InputChanged();"/> mm               
                 </td>    
                 <td align="center">
                     <button type="button" style="width: 100%" onclick="ComputeDeflection();">Compute y</button>
@@ -212,7 +212,7 @@
             document.BEAM3PT.STRESS.value = S.toFixed(6);
             document.BEAM3PT.SECTION.value = Z.toFixed(6);                                                                          
         } else {
-            document.BEAM3PT.DEFLECTION.value = "Bad Input";
+            document.BEAM3PT.MOMENT.value = "Bad Input";
             document.BEAM3PT.DEFLECTION.value = "Bad Input";
             document.BEAM3PT.STRESS.value = "Bad Input";
             document.BEAM3PT.SECTION.value = "Bad Input";                                                
