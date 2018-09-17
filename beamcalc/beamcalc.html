@@ -36,7 +36,7 @@
             <col width="35%">
             <tr>
                 <th colspan="4">
-                    <h1>3-Point Rectangular Beam [5]</h1>
+                    <h1>3-Point Rectangular Beam [6]</h1>
                 </th>
             </tr>
             <tr>
@@ -100,7 +100,7 @@
                     E 
                 </td>
                 <td>
-                    <input type="number" style="text-align: right" name="E" id="MODULUS" oninput="InputChanged();"/> MPa                   
+                    <input type="text" style="text-align: right" name="E" id="MODULUS" oninput="InputChanged();"/> MPa                   
                 </td>     
                 <td align="center">
                     <button type="button" style="width: 100%" onclick="ComputeModulus();">Compute E</button>
@@ -128,7 +128,7 @@
                     S 
                 </td>
                 <td>
-                    <input type="number" style="text-align: right" name="S" id="STRESS" readonly> MPa
+                    <input type="text" style="text-align: right" name="S" id="STRESS" readonly> MPa
                 </td> 
                 <td></td>
             </tr>
@@ -140,7 +140,7 @@
                     I 
                 </td>
                 <td>
-                    <input type="number" style="text-align: right" name="I" id="MOMENT" readonly> mm<sup>4</sup>
+                    <input type="text" style="text-align: right" name="I" id="MOMENT" readonly> mm<sup>4</sup>
                 </td> 
                 <td></td>
             </tr>
@@ -152,7 +152,7 @@
                     Z 
                 </td>
                 <td>
-                    <input type="number" style="text-align: right" name="Z" id="SECTION" readonly> mm<sup>3</sup>
+                    <input type="text" style="text-align: right" name="Z" id="SECTION" readonly> mm<sup>3</sup>
                 </td> 
                 <td></td>
             </tr>
@@ -211,10 +211,13 @@
             document.BEAM3PT.DEFLECTION.value = y.toFixed(6);
             document.BEAM3PT.STRESS.value = S.toFixed(6);
             document.BEAM3PT.SECTION.value = Z.toFixed(6);                                                                          
-            ComputationUpToDate();
         } else {
             document.BEAM3PT.DEFLECTION.value = "Bad Input";
-        }                                                    
+            document.BEAM3PT.DEFLECTION.value = "Bad Input";
+            document.BEAM3PT.STRESS.value = "Bad Input";
+            document.BEAM3PT.SECTION.value = "Bad Input";                                                
+        }
+        ComputationUpToDate();                                                   
     }
     function ComputeModulus() {
         var L = Number(document.BEAM3PT.LENGTH.value);
@@ -226,11 +229,18 @@
         var E = (W*(L*L*L))/(48.0*y*I);
         var z = h / 2.0;                                                                          
         var Z = I / z;
-        var S = (W*L) / (4.0*Z);                                                                           
-        document.BEAM3PT.MOMENT.value = I.toFixed(6);
-        document.BEAM3PT.MODULUS.value = E.toFixed(6);
-        document.BEAM3PT.STRESS.value = S.toFixed(6);
-        document.BEAM3PT.SECTION.value = Z.toFixed(6);                                                                              
+        var S = (W*L) / (4.0*Z);               
+        if (L > 0.0 && W > 0.0 && b > 0.0 && h > 0.0 && y > 0.0) {                                                 
+            document.BEAM3PT.MOMENT.value = I.toFixed(6);
+            document.BEAM3PT.MODULUS.value = E.toFixed(6);
+            document.BEAM3PT.STRESS.value = S.toFixed(6);
+            document.BEAM3PT.SECTION.value = Z.toFixed(6);
+        } else {
+            document.BEAM3PT.MOMENT.value = "Bad Input";
+            document.BEAM3PT.MODULUS.value = "Bad Input";
+            document.BEAM3PT.STRESS.value = "Bad Input";
+            document.BEAM3PT.SECTION.value = "Bad Input";                                                      
+        }                                                
         ComputationUpToDate();
     }
 </script>
