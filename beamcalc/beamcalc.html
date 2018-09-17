@@ -205,12 +205,8 @@
         var y = (W*(L*L*L))/(48.0*E*I);
         var z = h / 2.0;                                                                          
         var Z = I / z;
-        var S = (W*L) / (4.0*Z);   
-        if (isNan(L)) {
-          document.BEAM3PT.MOMENT.value = -1;
-        } else {                                                                         
-          document.BEAM3PT.MOMENT.value = I.toFixed(6);
-        }
+        var S = (W*L) / (4.0*Z);                                                                     
+        document.BEAM3PT.MOMENT.value = L;
         document.BEAM3PT.DEFLECTION.value = y.toFixed(6);
         document.BEAM3PT.STRESS.value = S.toFixed(6);
         document.BEAM3PT.SECTION.value = Z.toFixed(6);                                                                          
