@@ -36,7 +36,7 @@
             <col width="35%">
             <tr>
                 <th colspan="4">
-                    <h1>3-Point Rectangular Beam [2]</h1>
+                    <h1>3-Point Rectangular Beam [3]</h1>
                 </th>
             </tr>
             <tr>
@@ -200,17 +200,19 @@
         var W = Number(document.BEAM3PT.LOAD.value);
         var b = Number(document.BEAM3PT.XWIDTH.value);
         var h = Number(document.BEAM3PT.XHEIGHT.value);
-        var E = Number(document.BEAM3PT.MODULUS.value);                                                                          
-        var I = (b*(h*h*h))/12.0;
-        var y = (W*(L*L*L))/(48.0*E*I);
-        var z = h / 2.0;                                                                          
-        var Z = I / z;
-        var S = (W*L) / (4.0*Z);                                                                     
-        document.BEAM3PT.MOMENT.value = L;
-        document.BEAM3PT.DEFLECTION.value = y.toFixed(6);
-        document.BEAM3PT.STRESS.value = S.toFixed(6);
-        document.BEAM3PT.SECTION.value = Z.toFixed(6);                                                                          
-        ComputationUpToDate();
+        var E = Number(document.BEAM3PT.MODULUS.value);  
+        if (L > 0.0 && W > 0.0 && b > 0.0 && h > 0.0 && E > 0.0) {                                                                          
+            var I = (b*(h*h*h))/12.0;
+            var y = (W*(L*L*L))/(48.0*E*I);
+            var z = h / 2.0;                                                                          
+            var Z = I / z;
+            var S = (W*L) / (4.0*Z);                                                                     
+            document.BEAM3PT.MOMENT.value = I.toFixed(6);
+            document.BEAM3PT.DEFLECTION.value = y.toFixed(6);
+            document.BEAM3PT.STRESS.value = S.toFixed(6);
+            document.BEAM3PT.SECTION.value = Z.toFixed(6);                                                                          
+            ComputationUpToDate();
+        }                                                                              
     }
     function ComputeModulus() {
         var L = Number(document.BEAM3PT.LENGTH.value);
