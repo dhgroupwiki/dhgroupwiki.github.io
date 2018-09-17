@@ -46,7 +46,7 @@
                     L 
                 </td>
                 <td>
-                    <input type="number" inputmode="numeric" pattern="[0-9]*" min="0" style="text-align: right" name="L" id="LENGTH" onchange="InputChanged();" required/> mm
+                    <input type="number" style="text-align: right" name="L" id="LENGTH" oninput="InputChanged();" required/> mm
                 </td>
                 <td></td>
             </tr>
@@ -58,7 +58,7 @@
                     W
                 </td> 
                 <td>
-                    <input type="number" value=" " style="text-align: right" name="W" id="LOAD" onchange="InputChanged();" required/> N
+                    <input type="number" style="text-align: right" name="W" id="LOAD" oninput="InputChanged();" required/> N
                </td>  
                <td></td>  
             </tr>
@@ -70,7 +70,7 @@
                     b 
                 </td>
                 <td>
-                    <input type="number" value=" " style="text-align: right" name="b" id="XWIDTH" onchange="InputChanged();" required/> mm
+                    <input type="number" style="text-align: right" name="b" id="XWIDTH" oninput="InputChanged();" required/> mm
                 </td> 
                 <td></td> 
             </tr>
@@ -82,7 +82,7 @@
                     h
                 </td> 
                <td>
-                    <input type="number" value=" " style="text-align: right" name="h" id="XHEIGHT" onchange="InputChanged();" required/> mm
+                    <input type="number" style="text-align: right" name="h" id="XHEIGHT" oninput="InputChanged();" required/> mm
                </td> 
                <td></td>  
             </tr>
@@ -94,7 +94,7 @@
                     E 
                 </td>
                 <td>
-                    <input type="number" value=" " style="text-align: right" name="E" id="MODULUS" onchange="InputChanged();"/> MPa                   
+                    <input type="number" style="text-align: right" name="E" id="MODULUS" oninput="InputChanged();"/> MPa                   
                 </td>     
                 <td align="center">
                     <button type="button" onclick="ComputeModulus();">Compute E</button>
@@ -108,7 +108,7 @@
                     y
                 </td> 
                 <td>
-                    <input type="number" value=" " style="text-align: right" name="y" id="DEFLECTION" onchange="InputChanged();"/> mm               
+                    <input type="number" style="text-align: right" name="y" id="DEFLECTION" oninput="InputChanged();"/> mm               
                 </td>    
                 <td align="center">
                     <button type="button" onclick="ComputeDeflection();">Compute y</button>
@@ -122,7 +122,7 @@
                     I 
                 </td>
                 <td>
-                    <input type="number" value=" " style="text-align: right" name="I" id="MOMENT" readonly> mm<sup>4</sup>
+                    <input type="number" style="text-align: right" name="I" id="MOMENT" readonly> mm<sup>4</sup>
                 </td> 
                 <td></td>
             </tr>
@@ -131,7 +131,7 @@
                     <small style="color:green">Enter values.</small>
                 </td>
                 <td align="center">
-                    <button type="button" onclick="ClearValues();">Clear</button>
+                    <button type="button" onclick="ClearValues();">Clear All</button>
                  </td>                               
             </tr> 
                                               
@@ -153,6 +153,15 @@
     function ComputationUpToDate() {
         document.getElementById("MESSAGE").innerHTML = '<small style="color:blue">Computation up to date.</small>';
     }
+    function ClearAll() {
+        document.getElementById("LENGTH").value = "";
+        document.getElementById("LOAD").value = "";
+        document.getElementById("XWIDTH").value = "";
+        document.getElementById("XHEIGHT").value = "";    
+        document.getElementById("MODULUS").value = ""; 
+        document.getElementById("DEFLECTION").value = ""; 
+        document.getElementById("MOMENT").value = "";                                                 
+    }                                                                                                            
     function ComputeDeflection() {
         var L = Number(document.BEAM3PT.LENGTH.value);
         var W = Number(document.BEAM3PT.LOAD.value);
