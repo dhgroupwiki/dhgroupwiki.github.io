@@ -30,7 +30,7 @@
         <table border="1" width="600" height="200" cellpadding="5" cellspacing="3">
             <tr>
                 <th colspan="4">
-                    <h1>3-Point Rectangular Beam [30]</h1>
+                    <h1>3-Point Rectangular Beam [31]</h1>
                 </th>
             </tr>
             <tr>
@@ -131,7 +131,7 @@
                     <small style="color:green">Enter values.</small>
                 </td>
                 <td align="center">
-                    <button type="button" onclick="ClearAll();">Clear All</button>
+                    <button type="button" onclick="ResetValues();">Reset Values</button>
                  </td>                               
             </tr> 
                                               
@@ -153,14 +153,15 @@
     function ComputationUpToDate() {
         document.getElementById("MESSAGE").innerHTML = '<small style="color:blue">Computation up to date.</small>';
     }
-    function ClearAll() {
+    function ResetValues() {
         document.getElementById("LENGTH").value = "";
         document.getElementById("LOAD").value = "";
         document.getElementById("XWIDTH").value = "";
         document.getElementById("XHEIGHT").value = "";    
         document.getElementById("MODULUS").value = ""; 
         document.getElementById("DEFLECTION").value = ""; 
-        document.getElementById("MOMENT").value = "";                                                 
+        document.getElementById("MOMENT").value = "";  
+        document.getElementById("MESSAGE").innerHTML = '<small style="color:green">Enter values.</small>'                                            
     }                                                                                                            
     function ComputeDeflection() {
         var L = Number(document.BEAM3PT.LENGTH.value);
