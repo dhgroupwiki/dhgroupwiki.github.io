@@ -46,7 +46,7 @@
                     L 
                 </td>
                 <td>
-                    <input type="number" value="0" step="any" style="text-align: right" name="L" id="LENGTH" onchange="InputChanged();" required/> mm
+                    <input type="number" value="" step="any" style="text-align: right" name="L" id="LENGTH" onchange="InputChanged();" required/> mm
                 </td>
                 <td></td>
             </tr>
@@ -58,7 +58,7 @@
                     W
                 </td> 
                 <td>
-                    <input type="number" value="0" style="text-align: right" name="W" id="LOAD" onchange="InputChanged();" required/> N
+                    <input type="number" value="" style="text-align: right" name="W" id="LOAD" onchange="InputChanged();" required/> N
                </td>  
                <td></td>  
             </tr>
@@ -70,7 +70,7 @@
                     b 
                 </td>
                 <td>
-                    <input type="number" value="0" style="text-align: right" name="b" id="XWIDTH" onchange="InputChanged();" required/> mm
+                    <input type="number" value="" style="text-align: right" name="b" id="XWIDTH" onchange="InputChanged();" required/> mm
                 </td> 
                 <td></td> 
             </tr>
@@ -82,7 +82,7 @@
                     h
                 </td> 
                <td>
-                    <input type="number" value="0" style="text-align: right" name="h" id="XHEIGHT" onchange="InputChanged();" required/> mm
+                    <input type="number" value="" style="text-align: right" name="h" id="XHEIGHT" onchange="InputChanged();" required/> mm
                </td> 
                <td></td>  
             </tr>
@@ -94,7 +94,7 @@
                     E 
                 </td>
                 <td>
-                    <input type="number" value="0" style="text-align: right" name="E" id="MODULUS" onchange="InputChanged();"/> MPa                   
+                    <input type="number" value="" style="text-align: right" name="E" id="MODULUS" onchange="InputChanged();"/> MPa                   
                 </td>     
                 <td align="center">
                     <button type="button" onclick="ComputeModulus();">Compute E</button>
@@ -108,7 +108,7 @@
                     y
                 </td> 
                 <td>
-                    <input type="number" value="0" style="text-align: right" name="y" id="DEFLECTION" onchange="InputChanged();"/> mm               
+                    <input type="number" value="" style="text-align: right" name="y" id="DEFLECTION" onchange="InputChanged();"/> mm               
                 </td>    
                 <td align="center">
                     <button type="button" onclick="ComputeDeflection();">Compute y</button>
@@ -122,15 +122,19 @@
                     I 
                 </td>
                 <td>
-                    <input type="number" value="0" style="text-align: right" name="I" id="MOMENT" readonly> mm<sup>4</sup>
+                    <input type="number" value="" style="text-align: right" name="I" id="MOMENT" readonly> mm<sup>4</sup>
                 </td> 
                 <td></td>
             </tr>
             <tr>
-                <td colspan="4" id="MESSAGE"">
+                <td colspan="3" id="MESSAGE"">
                     <small style="color:green">Enter values.</small>
                 </td>
+                <td align="center">
+                    <button type="button" onclick="ClearValues();">Clear</button>
+                 </td>                               
             </tr> 
+                                              
             <!--<tr> 
                 <td>
                     <input type="number" name="INPUT1" id="input" onchange="calculate();"/>
