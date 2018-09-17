@@ -36,7 +36,7 @@
             <col width="35%">
             <tr>
                 <th colspan="4">
-                    <h1>3-Point Rectangular Beam [3]</h1>
+                    <h1>3-Point Rectangular Beam [4]</h1>
                 </th>
             </tr>
             <tr>
@@ -212,7 +212,9 @@
             document.BEAM3PT.STRESS.value = S.toFixed(6);
             document.BEAM3PT.SECTION.value = Z.toFixed(6);                                                                          
             ComputationUpToDate();
-        }                                                                              
+        } else {
+            document.BEAM3PT.DEFLECTION.value = "Bad Input";
+        }                                                    
     }
     function ComputeModulus() {
         var L = Number(document.BEAM3PT.LENGTH.value);
