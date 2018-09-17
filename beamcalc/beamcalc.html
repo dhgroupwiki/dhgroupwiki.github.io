@@ -200,13 +200,17 @@
         var W = Number(document.BEAM3PT.LOAD.value);
         var b = Number(document.BEAM3PT.XWIDTH.value);
         var h = Number(document.BEAM3PT.XHEIGHT.value);
-        var E = Number(document.BEAM3PT.MODULUS.value);
+        var E = Number(document.BEAM3PT.MODULUS.value);                                                                          
         var I = (b*(h*h*h))/12.0;
         var y = (W*(L*L*L))/(48.0*E*I);
         var z = h / 2.0;                                                                          
         var Z = I / z;
-        var S = (W*L) / (4.0*Z);                                                                          
-        document.BEAM3PT.MOMENT.value = I.toFixed(6);
+        var S = (W*L) / (4.0*Z);   
+        if (isNan(L)) {
+          document.BEAM3PT.MOMENT.value = -1;
+        } else {                                                                         
+          document.BEAM3PT.MOMENT.value = I.toFixed(6);
+        }
         document.BEAM3PT.DEFLECTION.value = y.toFixed(6);
         document.BEAM3PT.STRESS.value = S.toFixed(6);
         document.BEAM3PT.SECTION.value = Z.toFixed(6);                                                                          
