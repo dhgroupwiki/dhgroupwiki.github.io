@@ -36,7 +36,7 @@
             <col width="40%">
             <tr>
                 <th colspan="3">
-                    <h2>3-Point Rectangular Beam [42]</h2>
+                    <h2>3-Point Rectangular Beam [43]</h2>
                 </th>
             </tr>
             <tr>
@@ -52,7 +52,7 @@
                     L 
                 </td>
                 <td>
-                    <input type="text" style="text-align: right" name="L" id="LENGTH" oninput="InputChanged();" onchange="Compute();" required/> mm
+                    <input type="number" step="any" style="text-align: right" name="L" id="LENGTH" oninput="InputChanged();" onchange="Compute();" required/> mm
                 </td>
             </tr>
              <tr>  
@@ -63,7 +63,7 @@
                     W
                 </td> 
                 <td>
-                    <input type="text" style="text-align: right" name="W" id="LOAD" oninput="InputChanged();" onchange="Compute();" required/> N
+                    <input type="number" step="any" style="text-align: right" name="W" id="LOAD" oninput="InputChanged();" onchange="Compute();" required/> N
                </td> 
             </tr>
              <tr>  
@@ -74,7 +74,7 @@
                     b 
                 </td>
                 <td>
-                    <input type="text" style="text-align: right" name="b" id="XWIDTH" oninput="InputChanged();" onchange="Compute();" required/> mm
+                    <input type=""number" step="any" style="text-align: right" name="b" id="XWIDTH" oninput="InputChanged();" onchange="Compute();" required/> mm
                 </td> 
             </tr>
              <tr>  
@@ -85,7 +85,7 @@
                     h
                 </td> 
                <td>
-                    <input type="text" style="text-align: right" name="h" id="XHEIGHT" oninput="InputChanged();" onchange="Compute();" required/> mm
+                    <input type="number" step="any" style="text-align: right" name="h" id="XHEIGHT" oninput="InputChanged();" onchange="Compute();" required/> mm
                </td> 
             </tr>
             <tr>  
@@ -96,7 +96,7 @@
                     E 
                 </td>
                 <td>
-                    <input type="text" style="text-align: right" name="E" id="MODULUS" oninput="InputChanged();" onchange="Compute();"/> MPa                   
+                    <input type="number" step="any" style="text-align: right" name="E" id="MODULUS" oninput="InputChanged();" onchange="Compute();"/> MPa                   
                 </td> 
                 <td><input type="radio" name="MODE" value="MODULUS" onchange="SetReadOnly(value);"></td>
             </tr>
@@ -108,7 +108,7 @@
                     y
                 </td> 
                 <td>
-                    <input type="text" style="text-align: right" name="y" id="DEFLECTION" oninput="InputChanged();" onchange="Compute();"/> mm               
+                    <input type="number" step="any" style="text-align: right" name="y" id="DEFLECTION" oninput="InputChanged();" onchange="Compute();"/> mm               
                 </td>  
                 <td><input type="radio" name="MODE" value="DEFLECTION" onchange="SetReadOnly(value);" checked></td>        
             </tr>
@@ -120,7 +120,7 @@
                     S 
                 </td>
                 <td>
-                    <input type="text" style="text-align: right" name="S" id="STRESS" readonly> MPa
+                    <input type="number" step="any" style="text-align: right" name="S" id="STRESS" readonly> MPa
                 </td> 
             </tr>
             <tr>  
@@ -131,7 +131,7 @@
                     I 
                 </td>
                 <td>
-                    <input type="text" style="text-align: right" name="I" id="MOMENT" readonly> mm<sup>4</sup>
+                    <input type="number" step="any" style="text-align: right" name="I" id="MOMENT" readonly> mm<sup>4</sup>
                 </td> 
             </tr>
             <tr>  
@@ -142,7 +142,7 @@
                     Z 
                 </td>
                 <td>
-                    <input type="text" style="text-align: right" name="Z" id="SECTION" readonly> mm<sup>3</sup>
+                    <input type="number" step="any" style="text-align: right" name="Z" id="SECTION" readonly> mm<sup>3</sup>
                 </td> 
             </tr>
             <tr>
