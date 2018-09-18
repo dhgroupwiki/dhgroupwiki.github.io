@@ -26,7 +26,7 @@
         }
     </style>
 </head>    
-<body onload='SetReadOnly("DEFLECTION");'>
+<body>
     <form name="BEAM3PT">
         <!--<table border="1" width="600" height="200" cellpadding="10" cellspacing="3">-->
         <!--<table border="1" width="600" height="200" cellpadding="5" cellspacing="3">-->
@@ -36,7 +36,7 @@
             <col width="40%">
             <tr>
                 <th colspan="3">
-                    <h2>3-Point Rectangular Beam [34]</h2>
+                    <h2>3-Point Rectangular Beam [35]</h2>
                 </th>
             </tr>
             <tr>
@@ -110,7 +110,7 @@
                 <td>
                     <input type="text" style="text-align: right" name="y" id="DEFLECTION" oninput="InputChanged();" onchange="Compute();"/> mm               
                 </td>  
-                <td><input type="radio" name="MODE" value="MODULUS" onchange="SetReadOnly(value);"></td>        
+                <td><input type="radio" name="MODE" value="MODULUS" onchange="SetReadOnly(value);" checked></td>        
             </tr>
             <tr>  
                 <td>
