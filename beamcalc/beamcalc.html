@@ -36,7 +36,7 @@
             <col width="35%">
             <tr>
                 <th colspan="4">
-                    <h1>3-Point Rectangular Beam [22]</h1>
+                    <h1>3-Point Rectangular Beam [23]</h1>
                 </th>
             </tr>
             <tr>
@@ -76,7 +76,7 @@
                     b 
                 </td>
                 <td>
-                    <input type="number" style="text-align: right" name="b" id="XWIDTH" oninput="InputChanged();" onchange=Compute();" required/> mm
+                    <input type="number" style="text-align: right" name="b" id="XWIDTH" oninput="InputChanged();" onchange="Compute();" required/> mm
                 </td> 
                 <td></td> 
             </tr>
@@ -100,7 +100,7 @@
                     E 
                 </td>
                 <td>
-                    <input type="text" style="text-align: right" name="E" id="MODULUS" oninput="InputChanged();"/> MPa                   
+                    <input type="text" style="text-align: right" name="E" id="MODULUS" oninput="InputChanged();" onchange="Compute();"/> MPa                   
                 </td>     
                 <td align="center">
                     <button type="button" style="width: 100%" onclick="ComputeModulus();">Compute E</button>
@@ -114,7 +114,7 @@
                     y
                 </td> 
                 <td>
-                    <input type="text" style="text-align: right" name="y" id="DEFLECTION" oninput="InputChanged();"/> mm               
+                    <input type="text" style="text-align: right" name="y" id="DEFLECTION" oninput="InputChanged();" onchange="Compute();"/> mm               
                 </td>    
                 <td align="center">
                     <button type="button" style="width: 100%" onclick="ComputeDeflection();">Compute y</button>
