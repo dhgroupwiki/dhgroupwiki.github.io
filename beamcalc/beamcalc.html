@@ -174,13 +174,19 @@
                 </td>
             </tr> -->
         </table>
-        <input type="radio" name="action" value="DEFLECTION"><label>Compute Deflection</label><br>
-        <input type="radio" name="action" value="MODULUS"><label>Compute Modulus</label><br>                                                    
+        <input type="radio" name="ACTION" value="DEFLECTION"><label>Compute Deflection</label><br>
+        <input type="radio" name="ACTION" value="MODULUS"><label>Compute Modulus</label><br>                                                    
     </form>
 
 <script type="text/javascript">
     function InputChanged() {
         document.getElementById("MESSAGE").innerHTML = '<small style="color:red">Input changed. Recompute necessary.</small>';
+        var radio = document.getElementsByName("ACTION");
+        if (radio.value == "DEFLECTION") {
+            ComputeDeflection();
+        } else if (radio.value == "MODULUS") {
+            ComputeModulus();
+       }                                    
     }    
     function ComputationUpToDate() {
         document.getElementById("MESSAGE").innerHTML = '<small style="color:blue">Computation up to date.</small>';
