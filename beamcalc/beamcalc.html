@@ -36,7 +36,7 @@
             <col width="35%">
             <tr>
                 <th colspan="4">
-                    <h1>3-Point Rectangular Beam [19]</h1>
+                    <h1>3-Point Rectangular Beam [20]</h1>
                 </th>
             </tr>
             <tr>
@@ -174,31 +174,37 @@
                 </td>
             </tr> -->
         </table>
-        <input type="radio" name="ACTION" value="DEFLECTION" onchange="SetReadOnly(value)"><label>Compute Deflection</label><br>
-        <input type="radio" name="ACTION" value="MODULUS" onchange="SetReadOnly(value)"><label>Compute Modulus</label><br>                                                    
+        <input type="radio" name="MODE" value="DEFLECTION" onchange="SetReadOnly(value)"><label>Compute Deflection</label><br>
+        <input type="radio" name="MODE" value="MODULUS" onchange="SetReadOnly(value)"><label>Compute Modulus</label><br>                                                    
     </form>
 
 <script type="text/javascript">
-    function SetReadOnly(a) {
-        alert(a);   
+    function SetReadOnly(mode) {
+        alert(mode);
+        var modulus = document.getElementById("MODULUS");
+        var deflection = document.getElementById("DEFLECTION");
+        if (mode == "DEFLECTION") {
+            deflection.readOnly = true;
+            modulus.readOnly = false;          
+        } else if (mode == "MODULUS") {
+            modulus.readOnly = true;
+            deflection.readOnly = false;
+        } else {
+            alert("ERROR (-1)");
     }    
     function InputChanged() {
         document.getElementById("MESSAGE").innerHTML = '<small style="color:red">Input changed. Recompute necessary.</small>';
     }                                                                            
     function Compute() {
-        var r = document.getElementsByName("ACTION");
-        for (var i=0; i < r.length; i++) {
-            if (r[i].checked) {
-                if (r[i].value == "DEFLECTION") {
+        var radio = document.getElementsByName("MODE");
+        for (var i=0; i < radio.length; i++) {
+            if (radio[i].checked) {
+                if (radio[i].value == "DEFLECTION") {
                     ComputeDeflection();
-                    document.getElementById("DEFLECTION").readOnly = true;
-                    document.getElementById("MODULUS").readOnly = false;
-                } else if (r[i].value == "MODULUS") {
-                    ComputeModulus();
-                    document.getElementById("DEFLECTION").readOnly = false;
-                    document.getElementById("MODULUS").readOnly = true;
+                } else if (radio[i].value == "MODULUS") {
+                    ComputeModulus();                
                 } else {
-                    alert("ERROR");
+                    alert("ERROR (-2)");
                 }
                 break;                 
             }
