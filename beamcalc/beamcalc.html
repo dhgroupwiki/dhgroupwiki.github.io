@@ -36,7 +36,7 @@
             <col width="35%">
             <tr>
                 <th colspan="4">
-                    <h1>3-Point Rectangular Beam [13]</h1>
+                    <h1>3-Point Rectangular Beam [14]</h1>
                 </th>
             </tr>
             <tr>
@@ -52,7 +52,7 @@
                     L 
                 </td>
                 <td>
-                    <input type="number" style="text-align: right" name="L" id="LENGTH" oninput="InputChanged();" required/> mm
+                    <input type="number" style="text-align: right" name="L" id="LENGTH" onchange="InputChanged();" required/> mm
                 </td>
                 <td></td>
             </tr>
@@ -64,7 +64,7 @@
                     W
                 </td> 
                 <td>
-                    <input type="number" style="text-align: right" name="W" id="LOAD" oninput="InputChanged();" required/> N
+                    <input type="number" style="text-align: right" name="W" id="LOAD" onchange="InputChanged();" required/> N
                </td>  
                <td></td>  
             </tr>
@@ -76,7 +76,7 @@
                     b 
                 </td>
                 <td>
-                    <input type="number" style="text-align: right" name="b" id="XWIDTH" oninput="InputChanged();" required/> mm
+                    <input type="number" style="text-align: right" name="b" id="XWIDTH" onchange="InputChanged();" required/> mm
                 </td> 
                 <td></td> 
             </tr>
@@ -88,7 +88,7 @@
                     h
                 </td> 
                <td>
-                    <input type="number" style="text-align: right" name="h" id="XHEIGHT" oninput="InputChanged();" required/> mm
+                    <input type="number" style="text-align: right" name="h" id="XHEIGHT" onchange="InputChanged();" required/> mm
                </td> 
                <td></td>  
             </tr>
@@ -181,8 +181,8 @@
 <script type="text/javascript">
     function InputChanged() {
         document.getElementById("MESSAGE").innerHTML = '<small style="color:red">Input changed. Recompute necessary.</small>';
-        //var r = document.getElementsByName("ACTION");
-        alert("HEY");                                        
+        var r = document.getElementsByName("ACTION");
+        alert(r[0].value);                                        
         //if (r[0].checked {
         //    alert(r[0].value)                           
         //    ComputeDeflection();
