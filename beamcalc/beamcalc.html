@@ -36,7 +36,7 @@
             <col width="40%">
             <tr>
                 <th colspan="3">
-                    <h1>3-Point Rectangular Beam [27]</h1>
+                    <h1>3-Point Rectangular Beam [28]</h1>
                 </th>
             </tr>
             <tr>
@@ -172,10 +172,14 @@
         var deflection = document.getElementById("DEFLECTION");
         if (mode == "DEFLECTION") {
             deflection.readOnly = true;
-            modulus.readOnly = false;          
+            deflection.style.color = blue;
+            modulus.readOnly = false;  
+            modulus.style.color = black;                    
         } else if (mode == "MODULUS") {
             modulus.readOnly = true;
+            modulus.style.color = blue;                        
             deflection.readOnly = false;
+            deflection.style.color = black;                        
         } else {
             alert("ERROR (-1)");
         }
