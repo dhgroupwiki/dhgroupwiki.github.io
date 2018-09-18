@@ -36,7 +36,7 @@
             <col width="35%">
             <tr>
                 <th colspan="4">
-                    <h1>3-Point Rectangular Beam [16]</h1>
+                    <h1>3-Point Rectangular Beam [18]</h1>
                 </th>
             </tr>
             <tr>
@@ -52,7 +52,7 @@
                     L 
                 </td>
                 <td>
-                    <input type="number" style="text-align: right" name="L" id="LENGTH" oninput="F()" onchange="InputChanged();" required/> mm
+                    <input type="number" style="text-align: right" name="L" id="LENGTH" oninput="InputChanged();" onchange="Compute();" required/> mm
                 </td>
                 <td></td>
             </tr>
@@ -64,7 +64,7 @@
                     W
                 </td> 
                 <td>
-                    <input type="number" style="text-align: right" name="W" id="LOAD" oninput="F()" onchange="InputChanged();" required/> N
+                    <input type="number" style="text-align: right" name="W" id="LOAD" oninput="InputChanged();" onchange="Compute();" required/> N
                </td>  
                <td></td>  
             </tr>
@@ -76,7 +76,7 @@
                     b 
                 </td>
                 <td>
-                    <input type="number" style="text-align: right" name="b" id="XWIDTH" onchange="InputChanged();" required/> mm
+                    <input type="number" style="text-align: right" name="b" id="XWIDTH" oninput="InputChanged();" onchange=Compute();" required/> mm
                 </td> 
                 <td></td> 
             </tr>
@@ -88,7 +88,7 @@
                     h
                 </td> 
                <td>
-                    <input type="number" style="text-align: right" name="h" id="XHEIGHT" onchange="InputChanged();" required/> mm
+                    <input type="number" style="text-align: right" name="h" id="XHEIGHT" oninput="InputChanged();" onchange="Compute();" required/> mm
                </td> 
                <td></td>  
             </tr>
@@ -179,18 +179,21 @@
     </form>
 
 <script type="text/javascript">
-    function F() {
+    function InputChanged() {
         document.getElementById("MESSAGE").innerHTML = '<small style="color:red">Input changed. Recompute necessary.</small>';
     }                                                                            
-    function InputChanged() {
-        //document.getElementById("MESSAGE").innerHTML = '<small style="color:red">Input changed. Recompute necessary.</small>';
+    function Compute() {
         var r = document.getElementsByName("ACTION");
         for (var i=0; i < r.length; i++) {
             if (r[i].checked) {
                 if (r[i].value == "DEFLECTION") {
                     ComputeDeflection();
+                    document.getElementById("DEFLECTION").readOnly = true;
+                    document.getElementById("MODULUS").readOnly = false;
                 } else if (r[i].value == "MODULUS") {
                     ComputeModulus();
+                    document.getElementById("DEFLECTION").readOnly = false;
+                    document.getElementById("MODULUS").readOnly = true;
                 } else {
                     alert("ERROR");
                 }
