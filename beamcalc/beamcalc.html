@@ -182,9 +182,11 @@
     function InputChanged() {
         document.getElementById("MESSAGE").innerHTML = '<small style="color:red">Input changed. Recompute necessary.</small>';
         var radio = document.getElementsByName("ACTION");
-        if (radio.value == "DEFLECTION") {
+        if (radio.value[0].checked {
+            alert(radis[0].value)                           
             ComputeDeflection();
-        } else if (radio.value == "MODULUS") {
+        } else if (radio[1].value.checked) {
+            alert(radio[1].value)                                            
             ComputeModulus();
        }                                    
     }    
