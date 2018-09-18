@@ -36,7 +36,7 @@
             <col width="35%">
             <tr>
                 <th colspan="4">
-                    <h1>3-Point Rectangular Beam [14]</h1>
+                    <h1>3-Point Rectangular Beam [15]</h1>
                 </th>
             </tr>
             <tr>
@@ -182,14 +182,18 @@
     function InputChanged() {
         document.getElementById("MESSAGE").innerHTML = '<small style="color:red">Input changed. Recompute necessary.</small>';
         var r = document.getElementsByName("ACTION");
-        alert(r[0].value);                                        
-        //if (r[0].checked {
-        //    alert(r[0].value)                           
-        //    ComputeDeflection();
-        //} else if (r[1].checked) {
-        //    alert(r[1].value)                                            
-        //    ComputeModulus();
-        //}                                    
+        for (var i=0; i < r.length; i++) {
+            if (r[i].checked) {
+                if (r[i].value == "DEFLECTION") {
+                    ComputeDeflection();
+                } else if (r[i].value == "MODULUS") {
+                    ComputeModulus();
+                } else {
+                    alert("ERROR");
+                }
+                break;                 
+            }
+        }                              
     }    
     function ComputationUpToDate() {
         document.getElementById("MESSAGE").innerHTML = '<small style="color:blue">Computation up to date.</small>';
