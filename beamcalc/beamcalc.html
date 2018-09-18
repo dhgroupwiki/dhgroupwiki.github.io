@@ -35,14 +35,10 @@
             <col width="10%">
             <col width="20%">
             <tr>
-                <th colspan="3">
-                    <h2>3-Point Rectangular Beam [78]</h2>
-                </th>
+                <th colspan="3"><h2>3-Point Rectangular Beam [79]</h2></th>
             </tr>
             <tr>
-                <td colspan=3 style="text-align: center;">
-                    <img src="beam3Pt.png"/>
-                </td>
+                <td colspan=3 style="text-align: center;"><img src="beam3Pt.png"/></td>
             </tr>
             <tr>  
                 <td/>
@@ -53,111 +49,53 @@
                 </td>
             </tr>
             <tr>  
-                <td>
-                    Length
-                </td>
-                <td align="center"> 
-                    L 
-                </td>
-                <td>
-                    <input type="number" step="any" style="text-align: right" name="L" id="LENGTH" oninput="InputChanged();" onchange="Compute();" required/> mm
-                </td>
-            </tr>
-             <tr>  
-                <td>
-                    Load
-                </td>
-                <td align="center"> 
-                    W
-                </td> 
-                <td>
-                    <input type="number" step="any" style="text-align: right" name="W" id="LOAD" oninput="InputChanged();" onchange="Compute();" required/> N
-               </td> 
-            </tr>
-             <tr>  
-                <td>
-                    Cross Section: Width
-                </td>
-                <td align="center"> 
-                    b 
-                </td>
-                <td>
-                    <input type="number" step="any" style="text-align: right" name="b" id="XWIDTH" oninput="InputChanged();" onchange="Compute();" required/> mm
-                </td> 
-            </tr>
-             <tr>  
-                <td>
-                    Cross Section: Height
-                </td>
-                <td align="center"> 
-                    h
-                </td> 
-               <td>
-                    <input type="number" step="any" style="text-align: right" name="h" id="XHEIGHT" oninput="InputChanged();" onchange="Compute();" required/> mm
-               </td> 
+                <td>Length</td>
+                <td align="center">L</td>
+                <td><input type="number" step="any" style="text-align: right" name="L" id="LENGTH" oninput="InputChanged();" onchange="Compute();" required/>mm</td>
             </tr>
             <tr>  
-                <td>
-                    Elastic Modulus
-                </td>
-                <td align="center"> 
-                    E 
-                </td>
-                <td>
-                    <input type="number" step="any" style="text-align: right" name="E" id="MODULUS" oninput="InputChanged();" onchange="Compute();"/> MPa                   
-                </td>
-            </tr>
-             <tr>  
-                <td>
-                    Maximum Deflection
-                </td>
-                <td align="center"> 
-                    y
-                </td> 
-                <td>
-                    <input type="number" step="any" style="text-align: right" name="y" id="DEFLECTION" oninput="InputChanged();" onchange="Compute();"/> mm               
-                </td>       
+                <td>Load</td>
+                <td align="center">W</td> 
+                <td><input type="number" step="any" style="text-align: right" name="W" id="LOAD" oninput="InputChanged();" onchange="Compute();" required/>N</td> 
             </tr>
             <tr>  
-                <td>
-                    Maximum Stress
-                </td>
-                <td align="center"> 
-                    S 
-                </td>
-                <td>
-                    <input type="number" step="any" style="text-align: right" name="S" id="STRESS" readonly> MPa
-                </td> 
+                <td>Cross Section: Width</td>
+                <td align="center">b</td>
+                <td><input type="number" step="any" style="text-align: right" name="b" id="XWIDTH" oninput="InputChanged();" onchange="Compute();" required/>mm</td> 
             </tr>
             <tr>  
-                <td>
-                    Moment of Intertia
-                </td>
-                <td align="center"> 
-                    I 
-                </td>
-                <td>
-                    <input type="number" step="any" style="text-align: right" name="I" id="MOMENT" readonly> mm<sup>4</sup>
-                </td> 
+                <td>Cross Section: Height</td>
+                <td align="center">h</td> 
+                <td><input type="number" step="any" style="text-align: right" name="h" id="XHEIGHT" oninput="InputChanged();" onchange="Compute();" required/>mm</td> 
             </tr>
             <tr>  
-                <td>
-                    Section Modulus
-                </td>
-                <td align="center"> 
-                    Z 
-                </td>
-                <td>
-                    <input type="number" step="any" style="text-align: right" name="Z" id="SECTION" readonly> mm<sup>3</sup>
-                </td> 
+                <td>Elastic Modulus</td>
+                <td align="center">E</td>
+                <td><input type="number" step="any" style="text-align: right" name="E" id="MODULUS" oninput="InputChanged();" onchange="Compute();"/>MPa</td>
+            </tr>
+            <tr>  
+                <td>Maximum Deflection</td>
+                <td align="center">y</td> 
+                <td><input type="number" step="any" style="text-align: right" name="y" id="DEFLECTION" oninput="InputChanged();" onchange="Compute();"/>mm</td>       
+            </tr>
+            <tr>  
+                <td>Maximum Stress</td>
+                <td align="center">S</td>
+                <td><input type="number" step="any" style="text-align: right" name="S" id="STRESS" readonly>MPa</td> 
+            </tr>
+            <tr>  
+                <td>Moment of Intertia</td>
+                <td align="center">I</td>
+                <td><input type="number" step="any" style="text-align: right" name="I" id="MOMENT" readonly>mm<sup>4</sup></td> 
+            </tr>
+            <tr>  
+                <td>Section Modulus</td>
+                <td align="center">Z</td>
+                <td><input type="number" step="any" style="text-align: right" name="Z" id="SECTION" readonly>mm<sup>3</sup></td> 
             </tr>
             <tr>
-                <td colspan="2" id="MESSAGE"">
-                    <p style="color:green;">Enter values.</p>
-                </td>
-                <td align="center">
-                    <button type="button" style="width: 100%" onclick="ResetValues();">Reset Values</button>
-                 </td>                               
+                <td colspan="2" id="MESSAGE""><p style="color:green;">Enter values.</p></td>
+                <td align="center"><button type="button" style="width: 100%" onclick="ResetValues();">Reset Values</button></td>                               
             </tr>                                  
         </table>                                            
     </form>
