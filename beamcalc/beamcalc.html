@@ -36,7 +36,7 @@
             <col width="35%">
             <tr>
                 <th colspan="4">
-                    <h1>3-Point Rectangular Beam [18]</h1>
+                    <h1>3-Point Rectangular Beam [19]</h1>
                 </th>
             </tr>
             <tr>
@@ -174,11 +174,14 @@
                 </td>
             </tr> -->
         </table>
-        <input type="radio" name="ACTION" value="DEFLECTION"><label>Compute Deflection</label><br>
-        <input type="radio" name="ACTION" value="MODULUS"><label>Compute Modulus</label><br>                                                    
+        <input type="radio" name="ACTION" value="DEFLECTION" onchange="SetReadOnly(value)"><label>Compute Deflection</label><br>
+        <input type="radio" name="ACTION" value="MODULUS" onchange="SetReadOnly(value)"><label>Compute Modulus</label><br>                                                    
     </form>
 
 <script type="text/javascript">
+    function SetReadOnly(a) {
+        alert(a);   
+    }    
     function InputChanged() {
         document.getElementById("MESSAGE").innerHTML = '<small style="color:red">Input changed. Recompute necessary.</small>';
     }                                                                            
