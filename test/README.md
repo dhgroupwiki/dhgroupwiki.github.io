@@ -1,4 +1,4 @@
-# Hey now
+# Wiki
 
 ## Documents
 
