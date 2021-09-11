@@ -12,3 +12,6 @@
 
 [Preparing a scientific manuscript for publication (M. Teeter)](manuscript_preparation_teeter_holdsworth.ppt)
 
+#### Publication Guidelines, Ethics, Best Practices
+
+
