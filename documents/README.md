@@ -108,7 +108,6 @@ Documents
 * [NSERC (png)]()
 * [Government of Ontario (png)]()
 
-
 ### Research Methods
 
 #### Statistics
@@ -140,6 +139,8 @@ Documents
 #### Dremel 3D Printers
 
 #### Instron
+
+
 
 [^1]: When finished, save as JPEG, select option of 1920 x 1080 for resolution
 [^2]: At very bottom of linked page
