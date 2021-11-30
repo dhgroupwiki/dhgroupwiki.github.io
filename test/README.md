@@ -1,10 +1,10 @@
 # Wiki
 
-## Documents
+## Documents {#1}
 
-### Authorship
+### Authorship {#2}
 
-#### Manuscript Preperation
+#### Manuscript Preperation {#3}
 
 * [Preparing a scientific manuscript for publication (D. Holdsworth)](files/manuscript_preparation_holdsworth_ppslides.pdf)
 
@@ -27,3 +27,5 @@
 ### External Links
 
 * [Fark](http://www.fark.com)
+
+[Link to Manuscript Preperation](#3)
