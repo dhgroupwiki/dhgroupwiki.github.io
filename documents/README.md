@@ -35,7 +35,7 @@
   * [Olympus Measuring Microscope (STM6)](#olympus-measuring-microscope-stm6)
   * [Eppendorf Micromanipulator (5171)](#eppendorf-micromanipulator-5171)
   * [Miscellaneous Machinery](#miscellaneous-machinery)
-  * [Measurements](#measurement)
+  * [Measurements](#measurements)
   * [Techniques](#techniques)
   
 * [Computers](#computers)
@@ -210,10 +210,10 @@
 * [Instron 2810-400 Flexure Fixture Product Guide]()
 * [Instron Compliance Correction]()
 
-### Olympus Measuring Microscope [STM6]
+### Olympus Measuring Microscope (STM6)
 * [Olympus STREAM Imaging Software Manual]()
 
-### Eppendorf Micromanipulator [5171]
+### Eppendorf Micromanipulator (5171)
 * [Eppendorf Micromanipulator 5171 Operating Manual]()
 
 ### Miscellaneous Machinery
