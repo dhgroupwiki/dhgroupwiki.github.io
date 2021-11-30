@@ -275,7 +275,7 @@ ___
 
 ## Safety Inspection Checklists
 
-### 2016-10-21
+### October 21 2016
 * [L-shaped Room (RRI-0278D)]()
 * [Metrology Suite (RRI-0299)]()
 * [Machine Shop (RRI-0214)]()
