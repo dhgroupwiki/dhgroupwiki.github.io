@@ -1,10 +1,10 @@
 # Wiki
 
-## Documents {#put-id-here}
+## Documents
 
-### Authorship{2}
+### Authorship
 
-#### Manuscript Preperation{3}
+#### Manuscript Preperation
 
 * [Preparing a scientific manuscript for publication (D. Holdsworth)](files/manuscript_preparation_holdsworth_ppslides.pdf)
 
