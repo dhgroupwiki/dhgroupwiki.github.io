@@ -106,6 +106,11 @@ ___
 ## Research Methods
 
 ### Statistics
+* [GraphPad Prism v4.0 User's Guide]()
+* [GraphPad Prism v4.0 Statistics Guide]()
+* [GraphPad Prism v4.0 Step-by-Step Examples]()
+* [Fitting Models to Biological Data Using Linear and Nonlinear Regression - A Practical Guide to Curve Fitting]()
+
 
 ## Standard Operating Procedures
 
