@@ -163,15 +163,32 @@ ___
 * [Protocol Development for the RS Scanner]()
 
 ### PIRC
+* [Animal Prep and Surgery Suite Procedures]()
+* [New Protocal Hazard Assessment]()
+* [Animal Transport Procedures]()
+* [Cleaning and Decontamination Procedures]()
 
 ### Kodak FX-Pro
+* [Kodak In-Vivo Imaging Systems Product Brochure]()
+* [Carestream Molecular Imaging Software v5 User Guide]()
 
 ### SLM
+* [MTT SLM125]()
+* [MTT SLM125 Operating and Maintenance Manual]()
+* [Metal Powders for MTT SLM125]()
 
 ### Dremel 3D Printers
+* [Dremel Idea Builder 3D20 Manual]()
+* [Dremel Idea Builder 3D40 Manual]()
 
 ### Instron
-
+* [Instron 3300 Load Frame Specifications (Including Series 3340, 3360, 3380)]()
+* [Instron 3300 Load Frames Reference Manual (Including Series 3340, 3360, 3380)]()
+* [Bluehill 2 Software Reference]()
+* [Bluehill Calculation Reference Manual (v1.1)]()
+* [Bluehill Calculation Reference Manual (v2.12)]()
+* [Instron 2810-400 Flexure Fixture Product Guide]()
+* [Instron Compliance Correction]()
 
 
 [^1]: When finished, save as JPEG, select option of 1920 x 1080 for resolution
