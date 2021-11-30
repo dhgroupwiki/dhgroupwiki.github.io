@@ -17,24 +17,27 @@
 #### Manuscript Preperation
 
 * [Preparing a scientific manuscript for publication (D. Holdsworth)](files/manuscript_preparation_holdsworth_ppslides.pdf)
-
 * [Preparing a scientific manuscript for publication (M. Teeter)](files/manuscript_preparation_teeter_holdsworth.ppt)
 
 #### Publication Guidelines, Ethics, Best Practices
 
 * [Best Practice Guidelines on Publication Ethics: A Publisher’s Perspective (IJCP)]()
-
 * [Guidelines on Good Publication Practice (COPE)]()
-
 * [Uniform Requirements for Manuscripts Submitted to Biomedical Journals: Writing and Editing for Biomedical Publication (ICMJE)]()
-
 * [Criteria for Authorship (JVS)]()
-
 * [Writing Academic Papers: A Guide for Prospective Authors (ICCN)]()
-
 * [Writing for Clinical Orthopaedics and Related Research (CORR)]()
 
 ### Templates
+
+* [E-Poster Template]()
+* [Poster Template (Robarts/Western - Blue - Larger font)]()
+* [~~Poster Template (Robarts/Western - Blue - Body font 32 pt)~~]()
+* [~~Poster Template (Robarts/Western - Blue)~~]()
+* [~~Poster Template (Robarts/Western/BIRC - Purple)~~]()
+* [Slide Template]()
+* [Manuscript Template]()
+* [Robarts Business Templates @ Schulich Medicine & Dentistry]()
 
 ### Logos and Branding
 
