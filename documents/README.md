@@ -111,10 +111,12 @@ ___
 * [GraphPad Prism v4.0 Step-by-Step Examples]()
 * [Fitting Models to Biological Data Using Linear and Nonlinear Regression - A Practical Guide to Curve Fitting]()
 
-
 ## Standard Operating Procedures
 
 ### New Users
+* [Robarts Resource Guide]() (Updated: June 2019)
+* [Orientation and Computer Setup for New Group Members]() (2018/04/30)
+* [~~Orientation and Computer Setup for New Group Members~~]() (2011/09/26)
 
 ### Micro-CT
 
