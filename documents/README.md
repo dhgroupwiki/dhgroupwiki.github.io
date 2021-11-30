@@ -55,8 +55,10 @@ Documents
 * [Writing Academic Papers: A Guide for Prospective Authors (ICCN)]()
 * [Writing for Clinical Orthopaedics and Related Research (CORR)]()
 
+
 ### Templates
-* [E-Poster Template]()
+
+* [E-Poster Template]()[^1] 
 * [Poster Template (Robarts/Western - Blue - Larger font)]()
 * [~~Poster Template (Robarts/Western - Blue - Body font 32 pt)~~]()
 * [~~Poster Template (Robarts/Western - Blue)~~]()
@@ -139,7 +141,6 @@ Documents
 
 #### Instron
 
-
-
+[^1]: When finished, save as JPEG, select option of 1920 x 1080 for resolution
 
 
