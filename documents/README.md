@@ -115,8 +115,8 @@ ___
 
 ### New Users
 * [Robarts Resource Guide]() (Updated: June 2019)
-* [Orientation and Computer Setup for New Group Members]() (2018/04/30)
-* [~~Orientation and Computer Setup for New Group Members~~]() (2011/09/26)
+* [Orientation and Computer Setup for New Group Members]() (2018-04-30)
+* [~~Orientation and Computer Setup for New Group Members~~]() (2011-09-26)
 
 ### Micro-CT
 
@@ -232,7 +232,35 @@ ___
 
 ## CT Scanner Images
 
+## ESA - Electrical Safety Authority
+* [ESA Recognized Certification Marks]()
 
+## ASTM & ISO Standards
+* [ASTM D790 - Standard Test Methods for Flexural Properties of Unreinforced and Reinforced Plastics and Electrical Insulating Materials]()
+* [ASTM D6272 - Standard Test Method for Flexural Properties of Unreinforced and Reinforced Plastics and Electrical Insulating Materials by Four-Point Bending]()
+* [ISO-ASTM 52915:2013(E) - Standard Specification for Additive Manufacturing File Format (AMF) Version 1.1.]()
+* [ASTM E9 - Standard Test Methods of Compression Testing of Metallic Materials at Room Temperature]()
+* [ASTM E111 - Standard Test Method for Young’s Modulus, Tangent Modulus, and Chord Modulus]()
+* [ASTM F3122 - Standard Guide for Evaluating Mechanical Properties of Metal Materials Made via Additive Manufacturing Processes]()
+* [ASTM E2180 - Standard Test Method for Determining the Activity of Incorporated Antimicrobial Agent(s) In Polymeric or Hydrophobic Materials]()
+* [ISO 13314 - Mechanical Testing of Metals - Ductility Testing - Compression Test for Porous and Cellular Metals]()
+
+## MSDS
+* [MSDS Aluminum Alloy]()
+* [MSDS Cobalt Chrome]()
+* [MSDS Stainless Steel]()
+* [MSDS Titanium Alloy]()
+* [MSDS Tool Steel]()
+
+## Safety Inspection Checklists
+
+### 2016-10-21
+* [L-shaped Room (RRI-0278D)]()
+* [Metrology Suite (RRI-0299)]()
+* [Machine Shop (RRI-0214)]()
+* [NC Mill / SLM Room (RRI-0218)]()
+* [Multistar Bay (RRI-0270F)]()
+* [Multistar / O-Arm Room (RRI 0270H)]()
 
 
 [^1]: When finished, save as JPEG, select option of 1920 x 1080 for resolution
