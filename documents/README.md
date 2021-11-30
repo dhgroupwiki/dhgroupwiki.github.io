@@ -85,43 +85,43 @@
 ## Logos and Branding
 
 ### Bone and Joint Institute
-* [Bone and Joint Institute (jpg)]()
-* [Bone and Joint Institute (png)]()
-* [Bone and Joint Institute - Reversed (png)]()
+* [Bone and Joint Institute (JPG)]()
+* [Bone and Joint Institute (PNG)]()
+* [Bone and Joint Institute - Reversed (PNG)]()
 
 ### Robarts Research Institute
-* [Robarts Horizontal (png)]()
-* [Robarts Horizontal - Reversed (png)]()
+* [Robarts Horizontal (PNG)]()
+* [Robarts Horizontal - Reversed (PNG)]()
 * [Robarts Graphics Standards]()
-* [Schulich Brand Standards Quick Reference Card (pdf)]()
+* [Schulich Brand Standards Quick Reference Card (PDF)]()
 
 ### Schulich School of Medicine and Dentistry
-* [Schulich Horizontal (png)]()
-* [Schulich Horizontal - Reversed (png)]()
-* [Schulich Stacked (png)]()
-* [Schulich Stacked - Reversed (png)]()
+* [Schulich Horizontal (PNG)]()
+* [Schulich Horizontal - Reversed (PNG)]()
+* [Schulich Stacked (PNG)]()
+* [Schulich Stacked - Reversed (PNG)]()
 * [Schulich Logos Page]()
 * [Schulich Branding Page]()
 * [Schulich Naming Conventions]()
 
 ### Western University
-* [Western Horizontal (png)]()
-* [Western Horizontal - Reversed (png)]()
-* [Western Horizontal Full (png)]()
-* [Western Horizontal Full - Reversed (png)]()
-* [Western Stacked (png)]()
-* [Western Stacked - Reversed (png)]()
-* [Western Stacked Full (png)]()
-* [Western Stacked Full - Reversed (png)]()
+* [Western Horizontal (PNG)]()
+* [Western Horizontal - Reversed (PNG)]()
+* [Western Horizontal Full (PNG)]()
+* [Western Horizontal Full - Reversed (PNG)]()
+* [Western Stacked (PNG)]()
+* [Western Stacked - Reversed (PNG)]()
+* [Western Stacked Full (PNG)]()
+* [Western Stacked Full - Reversed (PNG)]()
 * [Western Logos Page]()
 * [Western Official Colours Page]()
 * [Western Official Fonts Page]()
-* [Western University Graphic Standards Manual (pdf)]()
+* [Western University Graphic Standards Manual (PDF)]()
 
 ### Funding Sources
-* [CIHR (png)]()
-* [NSERC (png)]()
-* [Government of Ontario (png)]()
+* [CIHR (PNG)]()
+* [NSERC (PNG)]()
+* [Government of Ontario (PNG)]()
 
 ## Research Methods
 
