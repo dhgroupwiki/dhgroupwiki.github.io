@@ -1,13 +1,16 @@
 # Documentation Wiki
 
-## Documents
+## Contents
 
-* [Authorship](#authorship)
-  * [Manuscript Preperation](#manuscript-preperation)
-  * [Publication Guidelines, Ethics, Best Practices]()
+* [Documents](#documents)
+  * [Authorship](#authorship)
+    * [Manuscript Preperation](#manuscript-preperation)
+    * [Publication Guidelines, Ethics, Best Practices]()
 * [External Links](#external-links)
 
 ---
+
+## Documents
 
 ### Authorship
 
