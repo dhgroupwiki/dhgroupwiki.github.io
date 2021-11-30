@@ -2,10 +2,39 @@
 
 ## Contents
 
-* [Documents](#documents)
-  * [Authorship](#authorship)
-    * [Manuscript Preperation](#manuscript-preperation)
-    * [Publication Guidelines, Ethics, Best Practices]()
+Documents
+
+* [Authorship](#authorship)
+  * [Manuscript Preperation](#manuscript-preperation)
+  * [Publication Guidelines, Ethics, Best Practices]()
+  
+* [Templates]()
+
+* [Logos and Branding]()
+  * [Bone and Joint Institute]()
+  * [Robarts Research Institute]()
+  * [Schulich School of Medicine and Dentistry]()
+  * [Western University]()
+  * [Funding Sources]()
+  
+* [Research Methods]()
+  * [Statistics]()
+
+* [Standard Operating Procedures (SOPS)]()
+  * [New Users]()
+  * [Micro CT]()
+    * [General]()
+    * [Vision 120]()
+    * [SpeCZT]()
+    * [Locus Ultra (VCT)]()
+    * [Locus SP (MS)]()
+    * [Locus (RS)]()
+  * [PIRC]()
+  * [Kodak FX-Pro]()
+  * [SLM]()
+  * [Dremel 3D Printers]()
+  * [Instron]()
+  
 * [External Links](#external-links)
 
 ---
