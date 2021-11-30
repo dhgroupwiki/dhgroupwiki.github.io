@@ -12,17 +12,17 @@
 
 #### Publication Guidelines, Ethics, Best Practices
 
-* Best Practice Guidelines on Publication Ethics: A Publisher’s Perspective (IJCP)
+* [Best Practice Guidelines on Publication Ethics: A Publisher’s Perspective (IJCP)]
 
-* Guidelines on Good Publication Practice (COPE)
+* [Guidelines on Good Publication Practice (COPE)]
 
-* Uniform Requirements for Manuscripts Submitted to Biomedical Journals: Writing and Editing for Biomedical Publication (ICMJE)
+* [Uniform Requirements for Manuscripts Submitted to Biomedical Journals: Writing and Editing for Biomedical Publication (ICMJE)]
 
-* Criteria for Authorship (JVS)
+* [Criteria for Authorship (JVS)]
 
-* Writing Academic Papers: A Guide for Prospective Authors (ICCN)
+* [Writing Academic Papers: A Guide for Prospective Authors (ICCN)]
 
-* Writing for Clinical Orthopaedics and Related Research (CORR)
+* [Writing for Clinical Orthopaedics and Related Research (CORR)]
 
 ### External Links
 
