@@ -1,6 +1,6 @@
 # Wiki
 
-## Documents{1}
+## Documents {#put-id-here}
 
 ### Authorship{2}
 
@@ -28,4 +28,4 @@
 
 * [Fark](http://www.fark.com)
 
-[Link to Manuscript Preperation](#3)
+[Link to Manuscript Preperation](#put-id-here)
