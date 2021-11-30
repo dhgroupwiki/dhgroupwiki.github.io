@@ -214,20 +214,25 @@ ___
 * [Preparing Microfil for Perfusion]()
 * [Casting a Metal Core]()
 
-## Software
+## Computers
 
-### MicroView
+### Hardware
+* [Method of Upgrading a Mac]()
+
+### Software
+
+#### MicroView
 * [MicroView Quick Guide]()
 * [Microview v2.1 Software Guide]()
 * [Microview v2.2 Software Guide]()
 
-### VGStudio Max
+#### VGStudio Max
 * [VGStudio Max Manual]()
 * [VGStudio Max User Guide]()
 
-## Computers
+## CT Scanner Images
 
-* [Method of Upgrading a Mac]()
+
 
 
 [^1]: When finished, save as JPEG, select option of 1920 x 1080 for resolution
