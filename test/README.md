@@ -15,12 +15,10 @@
 ### Authorship
 
 #### Manuscript Preperation
-
 * [Preparing a scientific manuscript for publication (D. Holdsworth)](files/manuscript_preparation_holdsworth_ppslides.pdf)
 * [Preparing a scientific manuscript for publication (M. Teeter)](files/manuscript_preparation_teeter_holdsworth.ppt)
 
 #### Publication Guidelines, Ethics, Best Practices
-
 * [Best Practice Guidelines on Publication Ethics: A Publisher’s Perspective (IJCP)]()
 * [Guidelines on Good Publication Practice (COPE)]()
 * [Uniform Requirements for Manuscripts Submitted to Biomedical Journals: Writing and Editing for Biomedical Publication (ICMJE)]()
@@ -29,7 +27,6 @@
 * [Writing for Clinical Orthopaedics and Related Research (CORR)]()
 
 ### Templates
-
 * [E-Poster Template]()
 * [Poster Template (Robarts/Western - Blue - Larger font)]()
 * [~~Poster Template (Robarts/Western - Blue - Body font 32 pt)~~]()
@@ -42,8 +39,15 @@
 ### Logos and Branding
 
 #### Bone and Joint Institute
+* [Bone and Joint Institute (jpg)]()
+* [Bone and Joint Institute (png)]()
+* [Bone and Joint Institute - Reversed (png)]()
 
 #### Robarts Research Institute
+* [Robarts Horizontal (png)]()
+* [Robarts Horizontal - Reversed (png)]()
+* [Robarts Graphics Standards]()
+* [Schulich Brand Standards Quick Reference Card (pdf)]()
 
 #### Schuich School of Medicine & Dentistry
 
