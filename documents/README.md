@@ -95,7 +95,7 @@
 * [Robarts Graphics Standards]()
 * [Schulich Brand Standards Quick Reference Card (pdf)]()
 
-### Schuich School of Medicine and Dentistry
+### Schulich School of Medicine and Dentistry
 * [Schulich Horizontal (png)]()
 * [Schulich Horizontal - Reversed (png)]()
 * [Schulich Stacked (png)]()
