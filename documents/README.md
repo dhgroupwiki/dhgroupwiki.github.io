@@ -255,7 +255,7 @@
 ## Electrical Safety Authority (ESA)
 * [ESA Recognized Certification Marks]()
 
-## ASTM & ISO Standards
+## ASTM and ISO Standards
 * [ASTM D790 - Standard Test Methods for Flexural Properties of Unreinforced and Reinforced Plastics and Electrical Insulating Materials]()
 * [ASTM D6272 - Standard Test Method for Flexural Properties of Unreinforced and Reinforced Plastics and Electrical Insulating Materials by Four-Point Bending]()
 * [ISO-ASTM 52915:2013(E) - Standard Specification for Additive Manufacturing File Format (AMF) Version 1.1.]()
