@@ -2,6 +2,13 @@
 
 ## Documents
 
+* [Authorship](#authorship)
+  * [Manuscript Preperation](#manuscript-preperation)
+  * [Publication Guidelines, Ethics, Best Practices]()
+* [External Links](#external-links)
+
+---
+
 ### Authorship
 
 #### Manuscript Preperation
