@@ -44,9 +44,17 @@
     * [Microview]()
     * [VGStudio Max]()
 
+* [CT Scanner Images]()
 
-  
-* [External Links](#external-links)
+* [Electrical Safety Authority (ESA)]()
+
+* [ASTM & ISO Standards]()
+
+* [MSDS]()
+
+* [Safety Inspection Checklists]()
+  * [2016-10-21]()
+
 
 ___
 
@@ -245,7 +253,7 @@ ___
 
 ## CT Scanner Images
 
-## ESA - Electrical Safety Authority
+## Electrical Safety Authority (ESA)
 * [ESA Recognized Certification Marks]()
 
 ## ASTM & ISO Standards
