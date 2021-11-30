@@ -55,8 +55,7 @@
 * [Safety Inspection Checklists]()
   * [2016-10-21]()
 
-
-___
+---
 
 ## Authorship
 
