@@ -1,4 +1,4 @@
-# Wiki
+# Documentation Wiki
 
 ## Documents
 
