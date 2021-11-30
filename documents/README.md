@@ -41,7 +41,7 @@
 * [Computers](#computers)
   * [Hardware](#hardware)
   * [Software](#software)
-    * [Microview](#microview)
+    * [MicroView](#microview)
     * [VGStudio Max](#vgstudio-max)
 
 * [CT Scanner Images](#ct-scanner-images)
@@ -53,7 +53,7 @@
 * [Material Safety Data Sheets (MSDS)](#material-safety-data-sheets-msds)
 
 * [Safety Inspection Checklists](#safety-inspection-checklists)
-  * [2016-10-21]()
+  * [2016-10-21](#2016-10-21)
 
 ---
 
