@@ -121,16 +121,46 @@ ___
 ### Micro-CT
 
 #### General
+* [Micro-CT Decontamination Procedure]()
+* [Micro-CT Equipment Handling and Procedures]()
+* [Micro-CT Operator Training]()
 
 #### Vision 120
+* [GEHC eXplore CT Vision 120 Micro-CT Scanner]()
+* [GEHC eXplore CT 120 User Guide]()
 
 #### SpeCZT
+* [Dual-Energy CT Scanning SOP]()
+* [Fast Filter Switcher (aka Filter Switcher v2)]()
+* [GEHC SpeCZT Micro-CT Scanner]()
+* [GEHC SpeCZT Micro-CT Service Guide (Revision 5)]()
+* [CPI Indico BRG-100RF Series H.F. X-Ray Series Service Manual (Chapter 1 Only)]()
+* [CPI Indico BRG-100RF Series H.F. X-Ray Series Service Manual (Full)]()
 
 #### Locus Ultra (VCT)
+* [GEHC Locus Ultra (VCT) Micro-CT Scanner]()
+* [GEHC Locus Ultra (VCT) Volume Stitching]()
+* [Operation Manual for Flat Panel VCT]()
 
 #### Locus SP (MS)
+* [GEHC eXplore Locus SP Micro-CT (MS Scanner) Acquisition and Reconstruction]() (Updated: 2012-07-26)
+* [MS Scanner Acquisition and Reconstruction]()
+* [MS Scanner Acquisition and Reconstruction (2)]()
+* [MS Scanner Warmup Procedure]()
+* [MS Scanner Shutdown Procedure]()
+* [Standard Scan Procedure for the MS Scanner]()
+* [GEHC eXplore Locus SP User Manual]()
+* [GEHC eXplore Locus SP Technical Manual]()
 
 #### Locus (RS)
+* [GE Healthcare eXplore Locus RS User Guide (Revision 2)]()
+* [General Animal Scan Procedure for the RS Scanner]()
+* [RS Scanner Warmup Procedure]()
+* [RS Scanner Acquisition and Reconstruction]()
+* [RS Scanner Acquisition and Reconstruction (2)]()
+* [RS Scanner Shutdown Procedure]()
+* [Standard Scan Procedure for the RS Scanner]()
+* [Protocol Development for the RS Scanner]()
 
 ### PIRC
 
