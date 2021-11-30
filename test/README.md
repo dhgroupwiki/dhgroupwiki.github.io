@@ -28,4 +28,4 @@
 
 * [Fark](http://www.fark.com)
 
-[Link to Manuscript Preperation](#put-id-here)
+[Link to Manuscript Preperation](#manuscript-preperation)
