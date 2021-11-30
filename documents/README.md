@@ -1,8 +1,6 @@
 # Documentation Wiki
 
-## Contents
-
-Documents
+## Table of Contents
 
 * [Authorship](#authorship)
   * [Manuscript Preperation](#manuscript-preperation)
@@ -37,17 +35,15 @@ Documents
   
 * [External Links](#external-links)
 
----
+___
 
-## Documents
+## Authorship
 
-### Authorship
-
-#### Manuscript Preperation
+### Manuscript Preperation
 * [Preparing a scientific manuscript for publication (D. Holdsworth)](files/manuscript_preparation_holdsworth_ppslides.pdf)
 * [Preparing a scientific manuscript for publication (M. Teeter)](files/manuscript_preparation_teeter_holdsworth.ppt)
 
-#### Publication Guidelines, Ethics, Best Practices
+### Publication Guidelines, Ethics, Best Practices
 * [Best Practice Guidelines on Publication Ethics: A Publisher’s Perspective (IJCP)]()
 * [Guidelines on Good Publication Practice (COPE)]()
 * [Uniform Requirements for Manuscripts Submitted to Biomedical Journals: Writing and Editing for Biomedical Publication (ICMJE)]()
@@ -55,8 +51,7 @@ Documents
 * [Writing Academic Papers: A Guide for Prospective Authors (ICCN)]()
 * [Writing for Clinical Orthopaedics and Related Research (CORR)]()
 
-
-### Templates
+## Templates
 
 * [E-Poster Template]()[^1] 
 * [Poster Template (Robarts/Western - Blue - Larger font)]()
@@ -67,20 +62,20 @@ Documents
 * [Manuscript Template]()
 * [Robarts Business Templates @ Schulich Medicine & Dentistry]()[^2]
 
-### Logos and Branding
+## Logos and Branding
 
-#### Bone and Joint Institute
+### Bone and Joint Institute
 * [Bone and Joint Institute (jpg)]()
 * [Bone and Joint Institute (png)]()
 * [Bone and Joint Institute - Reversed (png)]()
 
-#### Robarts Research Institute
+### Robarts Research Institute
 * [Robarts Horizontal (png)]()
 * [Robarts Horizontal - Reversed (png)]()
 * [Robarts Graphics Standards]()
 * [Schulich Brand Standards Quick Reference Card (pdf)]()
 
-#### Schuich School of Medicine & Dentistry
+### Schuich School of Medicine & Dentistry
 * [Schulich Horizontal (png)]()
 * [Schulich Horizontal - Reversed (png)]()
 * [Schulich Stacked (png)]()
@@ -89,7 +84,7 @@ Documents
 * [Schulich Branding Page]()
 * [Schulich Naming Conventions]()
 
-#### Western University
+### Western University
 * [Western Horizontal (png)]()
 * [Western Horizontal - Reversed (png)]()
 * [Western Horizontal Full (png)]()
@@ -103,42 +98,42 @@ Documents
 * [Western Official Fonts Page]()
 * [Western University Graphic Standards Manual (pdf)]()
 
-#### Funding Sources
+### Funding Sources
 * [CIHR (png)]()
 * [NSERC (png)]()
 * [Government of Ontario (png)]()
 
-### Research Methods
+## Research Methods
 
-#### Statistics
+### Statistics
 
-### Standard Operating Procedures
+## Standard Operating Procedures
 
-#### New Users
+### New Users
 
-#### Micro-CT
+### Micro-CT
 
-##### General
+#### General
 
-##### Vision 120
+#### Vision 120
 
-##### SpeCZT
+#### SpeCZT
 
-##### Locus Ultra (VCT)
+#### Locus Ultra (VCT)
 
-##### Locus SP (MS)
+#### Locus SP (MS)
 
-##### Locus (RS)
+#### Locus (RS)
 
-#### PIRC
+### PIRC
 
-#### Kodak FX-Pro
+### Kodak FX-Pro
 
-#### SLM
+### SLM
 
-#### Dremel 3D Printers
+### Dremel 3D Printers
 
-#### Instron
+### Instron
 
 
 
