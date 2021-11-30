@@ -32,6 +32,19 @@
   * [SLM]()
   * [Dremel 3D Printers]()
   * [Instron]()
+  * [Olympus Measuring Microscope (STM6)]()
+  * [Eppendorf Micromanipulator (5171)]()
+  * [Miscellaneous Machinery]()
+  * [Measurements]()
+  * [Techniques]()
+  
+* [Computers]()
+  * [Hardware]()
+  * [Software]()
+    * [Microview]()
+    * [VGStudio Max]()
+
+
   
 * [External Links](#external-links)
 
