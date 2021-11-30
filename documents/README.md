@@ -65,7 +65,7 @@ Documents
 * [~~Poster Template (Robarts/Western/BIRC - Purple)~~]()
 * [Slide Template]()
 * [Manuscript Template]()
-* [Robarts Business Templates @ Schulich Medicine & Dentistry]()
+* [Robarts Business Templates @ Schulich Medicine & Dentistry]()[^2]
 
 ### Logos and Branding
 
@@ -142,5 +142,5 @@ Documents
 #### Instron
 
 [^1]: When finished, save as JPEG, select option of 1920 x 1080 for resolution
-
+[^2]: At very bottom of linked page
 
