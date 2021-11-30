@@ -4,16 +4,16 @@
 
 * [Authorship](#authorship)
   * [Manuscript Preperation](#manuscript-preperation)
-  * [Publication Guidelines, Ethics, Best Practices]()
+  * [Publication Guidelines, Ethics, Best Practices](#publication-guidelines-ethics-best-practices)
   
-* [Templates]()
+* [Templates](#templates)
 
-* [Logos and Branding]()
-  * [Bone and Joint Institute]()
-  * [Robarts Research Institute]()
-  * [Schulich School of Medicine and Dentistry]()
-  * [Western University]()
-  * [Funding Sources]()
+* [Logos and Branding](#logos-and-branding)
+  * [Bone and Joint Institute](#bone-and-joint-institute)
+  * [Robarts Research Institute](#robarts-research-institute)
+  * [Schulich School of Medicine and Dentistry](#schulich-school-of-medicine-and-dentistry)
+  * [Western University](#western-university)
+  * [Funding Sources](#funding-sources)
   
 * [Research Methods]()
   * [Statistics]()
@@ -95,7 +95,7 @@
 * [Robarts Graphics Standards]()
 * [Schulich Brand Standards Quick Reference Card (pdf)]()
 
-### Schuich School of Medicine & Dentistry
+### Schuich School of Medicine and Dentistry
 * [Schulich Horizontal (png)]()
 * [Schulich Horizontal - Reversed (png)]()
 * [Schulich Stacked (png)]()
